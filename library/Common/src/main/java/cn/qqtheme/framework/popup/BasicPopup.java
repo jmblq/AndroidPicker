@@ -6,6 +6,8 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
+import android.support.annotation.CallSuper;
+import android.support.annotation.StyleRes;
 import android.util.DisplayMetrics;
 import android.view.Gravity;
 import android.view.KeyEvent;
@@ -14,7 +16,6 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.FrameLayout;
 
-import androidx.annotation.StyleRes;
 import cn.qqtheme.framework.util.LogUtils;
 import cn.qqtheme.framework.util.ScreenUtils;
 

@@ -46,5 +46,8 @@
     *;
 }
 
+-dontwarn android.support.**
+-keep class android.support.v4.** { *; }
+
 #不混淆地址选择器的实体类，以便fastjson能正常解析
 -keep class cn.qqtheme.framework.entity.** { *;}

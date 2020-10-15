@@ -1,6 +1,7 @@
 package cn.qqtheme.framework.picker;
 
 import android.app.Activity;
+import android.support.annotation.NonNull;
 import android.view.Gravity;
 import android.widget.CheckBox;
 import android.widget.LinearLayout;
@@ -11,7 +12,6 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-import androidx.annotation.NonNull;
 import cn.qqtheme.framework.popup.ConfirmPopup;
 
 /**

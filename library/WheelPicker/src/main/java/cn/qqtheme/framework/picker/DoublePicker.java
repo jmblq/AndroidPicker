@@ -1,7 +1,7 @@
 package cn.qqtheme.framework.picker;
 
 import android.app.Activity;
-import androidx.annotation.NonNull;
+import android.support.annotation.NonNull;
 import android.text.TextUtils;
 import android.view.Gravity;
 import android.view.View;
